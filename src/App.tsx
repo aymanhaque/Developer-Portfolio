@@ -1,10 +1,11 @@
-import './index.css'
+import Nav from "./components/nav";
 
-function App() {
-
+const App = () => {
   return (
-    <h1 className=''>Hello</h1>
+    <div className="bg-slate-900">
+      <Nav/>
+    </div>
   )
-}
+};
 
-export default App
+export default App;
