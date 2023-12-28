@@ -7,7 +7,7 @@ const About = () => {
           src="https://media.licdn.com/dms/image/C4E03AQHWrgOaaqCbWQ/profile-displayphoto-shrink_200_200/0/1652730550426?e=1709164800&v=beta&t=P8Aw6x8JmYPqcwIT6RM2RZT9-JCu5Q83gxNGwx7Adxw"
         />
       </div>
-      <div className=" w-2/3">
+      <div className=" w-2/3 text-xl font-semibold font-mono">
         <p>
           I currently attend the University of Texas at Dallas as a computer
           science major. I've started learning programming since I was 16 from
