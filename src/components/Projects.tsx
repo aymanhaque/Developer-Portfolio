@@ -42,7 +42,7 @@ const Projects = () => {
         {/* BlackJack */}
         <div className="flex my-48">
           <img
-            className=" rounded-2xl mr-8"
+            className=" rounded-2xl mr-8 object-fill h-"
             src="src/assets/blackjack.png"
             alt="Terminal Mail"
           />
