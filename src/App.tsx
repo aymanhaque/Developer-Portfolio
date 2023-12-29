@@ -6,7 +6,7 @@ import { Contact } from "./components/Contact";
 
 const App = () => {
   return (
-    <div className="dark:text-white  dark:bg-gradient-to-r from-black to-slate-900 transition-all"> 
+    <div className="dark:text-white  dark:bg-gradient-to-r from-black to-slate-700 transition-all"> 
       <div className="k">
         <Home />
       </div>

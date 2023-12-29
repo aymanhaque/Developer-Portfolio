@@ -14,18 +14,18 @@ export const Contact = () => {
             </label>
             <input
               placeholder="Muhd Haque"
-              className=" border-gray-500 w-full px-3 py-2 border rounded-lg bg-gray focus:border-blue-500"
+              className=" border-gray-500 w-full px-3 py-2 border rounded-lg bg-gray focus:border-blue-500 dark:text-black"
               required
               type="name"
             ></input>
           </div>
           <div className="mb-4">
-            <label className="block text---sm font-semibold mb-2" htmlFor="">
+            <label className="block text---sm font-semibold mb-2 " htmlFor="">
               Your Email
             </label>
             <input
               placeholder="example@gmail.com"
-              className=" border-gray-500 w-full px-3 py-2 border rounded-lg bg-gray focus:border-blue-500"
+              className=" border-gray-500 w-full px-3 py-2 border rounded-lg bg-gray focus:border-blue-500 dark:text-black"
               required
               type="email"
             ></input>
@@ -36,7 +36,7 @@ export const Contact = () => {
             </label>
             <textarea
               placeholder="Hi my name is....."
-              className=" border-gray-500 w-full px-3 py-2 border rounded-lg bg-gray focus:border-blue-500"
+              className=" border-gray-500 w-full px-3 py-2 border rounded-lg bg-gray focus:border-blue-500 dark:text-black"
               required
             ></textarea>
           </div>
