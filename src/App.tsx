@@ -6,11 +6,11 @@ import { Contact } from "./components/Contact";
 
 const App = () => {
   return (
-    <div className=""> 
-      <div className="">
+    <div className="dark:text-white dark:bg-gradient-to-r from-black to-slate-900 transition-all"> 
+      <div className="k">
         <Home />
       </div>
-      <div className=" bg-slate-900 sticky top-0">
+      <div className=" bg-slate-900 sticky top-0 dark:bg-blue-950">
         <Nav />
       </div>
       <div>
@@ -22,7 +22,11 @@ const App = () => {
       <div>
         <Contact/>
       </div>
+      <div>
+        .
+      </div>
     </div>
+
   );
 };
 

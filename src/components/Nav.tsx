@@ -8,19 +8,19 @@ const Nav = () => {
       <div className="h-10vh flex justify-center text-white px-20 py-4 ">
         <div className=" flex items-center justify-center font-normal">
           <ul className="flex gap-8 mr-16 text-{18px}">
-            <button>
-              <li className="">
-                <FontAwesomeIcon icon={faHouse} size="xl" />
+            <button >
+              <li className="dark:text-white">
+                <FontAwesomeIcon icon={faHouse} size="xl" className="hover:text-4xl" />
               </li>
             </button>
             <button>
               <li className="mx-4">
-                <FontAwesomeIcon icon={faListCheck} size="xl" />
+                <FontAwesomeIcon icon={faListCheck} size="xl" className="hover:text-4xl" />
               </li>
             </button>
             <button>
               <li>
-                <FontAwesomeIcon icon={faUser} size="xl" />
+                <FontAwesomeIcon icon={faUser} size="xl" className="hover:text-4xl"/>
               </li>
             </button>
           </ul>

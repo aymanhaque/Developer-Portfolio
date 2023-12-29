@@ -9,10 +9,7 @@ export const Contact = () => {
         </div>
         <form action="">
           <div className="mb-4">
-            <label
-              className="block text-black text---sm font-semibold mb-2"
-              htmlFor=""
-            >
+            <label className="block text---sm font-semibold mb-2" htmlFor="">
               Your Name
             </label>
             <input
@@ -23,10 +20,7 @@ export const Contact = () => {
             ></input>
           </div>
           <div className="mb-4">
-            <label
-              className="block text-black text---sm font-semibold mb-2"
-              htmlFor=""
-            >
+            <label className="block text---sm font-semibold mb-2" htmlFor="">
               Your Email
             </label>
             <input
@@ -37,10 +31,7 @@ export const Contact = () => {
             ></input>
           </div>
           <div className="mb-4">
-            <label
-              className="block text-black text---sm font-semibold mb-2"
-              htmlFor=""
-            >
+            <label className="block text---sm font-semibold mb-2" htmlFor="">
               Send Message
             </label>
             <textarea
@@ -49,10 +40,10 @@ export const Contact = () => {
               required
             ></textarea>
           </div>
-          <div className="justify-center flex mb-6">
+          <div className="justify-center flex mb-1">
             <button
               type="submit"
-              className="transition-color text-lg bg-black rounded-2xl text-white px-3 py-2 font-semibold hover:bg-gray-600 focus:outline-red-500"
+              className=" transition-all text-lg bg-black dark:bg-blue-900 dark:text-white rounded-2xl text-white px-3 py-2 font-semibold hover:bg-gray-600 hover:text-xl focus:outline-red-500"
             >
               Submit
             </button>

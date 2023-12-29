@@ -8,7 +8,7 @@ const Projects = () => {
         {/* Terminal Mail */}
         <div className="flex my-48">
           <img
-            className=" rounded-2xl mr-8 h-96 w-1/4 hover:h-3/4 hover:w-3/4 transition"
+            className=" rounded-2xl mr-8 h-96 w-1/4 hover:h-3/4 hover:w-3/4"
             src="src/assets/terminalMail.png"
             alt="Terminal Mail"
           />
