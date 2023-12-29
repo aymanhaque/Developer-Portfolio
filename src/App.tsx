@@ -6,9 +6,8 @@ import { Contact } from "./components/Contact";
 
 const App = () => {
   return (
-    <>
-      
-      <div>
+    <div className=""> 
+      <div className="">
         <Home />
       </div>
       <div className=" bg-slate-900 sticky top-0">
@@ -23,7 +22,7 @@ const App = () => {
       <div>
         <Contact/>
       </div>
-    </>
+    </div>
   );
 };
 

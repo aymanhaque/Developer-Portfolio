@@ -9,12 +9,12 @@ const Nav = () => {
         <div className=" flex items-center justify-center font-normal">
           <ul className="flex gap-8 mr-16 text-{18px}">
             <button>
-              <li className="mr-4">
+              <li className="">
                 <FontAwesomeIcon icon={faHouse} size="xl" />
               </li>
             </button>
             <button>
-              <li className="mr-4">
+              <li className="mx-4">
                 <FontAwesomeIcon icon={faListCheck} size="xl" />
               </li>
             </button>
