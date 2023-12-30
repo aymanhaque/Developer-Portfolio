@@ -30,12 +30,12 @@ export const Home = () => {
           </button>
         </a>
         <a href="https://www.instagram.com/ayman__haque_/" target="_blank">
-          <button>
+          <button className="">
             <FontAwesomeIcon
-              className="h-12"
+              className="h-12 bg-slate-600 bg-clip-text"
               icon={faInstagram}
               size="2xl"
-              style={{ color: "#2675fd" }}
+              // style={{ color: "#2675fd" }}
             />
           </button>
         </a>
