@@ -6,7 +6,7 @@ const Nav = () => {
   return (
     <nav className="">
       <div className="h-10vh flex text-white px-20 py-2 items-center justify-center">
-          <h1 className="text-left">sdf</h1>
+          {/* <h1 className="text-left">sdf</h1> */}
         <div className=" flex items-center justify-center font-normal">
           <ul className="flex gap-8 text-{18px}">
             <button>
