@@ -1,7 +1,11 @@
+// import { forwardRef } from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faLinkedin } from "@fortawesome/free-brands-svg-icons";
 import { faGithub } from "@fortawesome/free-brands-svg-icons";
 import { faInstagram } from "@fortawesome/free-brands-svg-icons";
+
+// ref={ref}
+// forwardRef((props,ref)
 export const Home = () => {
   return (
     <div className="flex justify-center text-center items-center h-screen">

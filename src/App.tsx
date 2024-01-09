@@ -4,14 +4,18 @@ import Home from "./components/Home";
 import Projects from "./components/Projects";
 import { Contact } from "./components/Contact";
 
-const App = () => {
+function App() {
+
+
+  
   return (
+
     <div className="dark:text-white  dark:bg-gradient-to-r dark:from-black dark:to-slate-700 transition-all"> 
-      <div className="k">
-        <Home />
+      <div>
+        <Home  />
       </div>
       <div className=" bg-slate-900 sticky top-0 dark:bg-blue-950">
-        <Nav />
+        <Nav/>
       </div>
       <div>
         <About />
@@ -28,6 +32,6 @@ const App = () => {
     </div>
 
   );
-};
+}
 
 export default App;
