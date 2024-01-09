@@ -4,7 +4,7 @@ export const Contact = () => {
       <div className="max-w-md w-full mx-auto">
         <div className="my-8">
           <h1 className="flex text-7xl font-semibold justify-center">
-            Contact
+            Contacts
           </h1>
         </div>
         <form action="">
