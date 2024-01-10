@@ -8,7 +8,7 @@ const Projects = () => {
         {/* Terminal Mail */}
         <div className="flex my-48">
           <img
-            className=" rounded-2xl mr-8 h-96 w-1/4 hover:h-3/4 hover:w-3/4"
+            className=" rounded-2xl mr-8 h-96 w-1/4 hover:h-1/2 hover:w-1/2"
             src="src/assets/terminalMail.png"
             alt="Terminal Mail"
           />
@@ -25,7 +25,7 @@ const Projects = () => {
         {/* Tic Tac Toe */}
         <div className="flex my-48">
           <img
-            className=" rounded-2xl mr-8 h-96 w-1/4 hover:h-3/4 hover:w-3/4"
+            className=" rounded-2xl mr-8 h-96 w-1/4 hover:h-1/2 hover:w-1/2"
             src="src/assets/ticTacToe.png"
             alt="Terminal Mail"
           />
@@ -42,7 +42,7 @@ const Projects = () => {
         {/* BlackJack */}
         <div className="flex my-48">
           <img
-            className=" rounded-2xl mr-8 object-fill h-96 w-1/4 hover:h-3/4 hover:w-3/4"
+            className=" rounded-2xl mr-8 object-fill h-96 w-1/4 hover:h-1/2 hover:w-1/2"
             src="src/assets/blackjack.png"
             alt="Terminal Mail"
           />

@@ -2,7 +2,8 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faLinkedin } from "@fortawesome/free-brands-svg-icons";
 import { faGithub } from "@fortawesome/free-brands-svg-icons";
 import { faInstagram } from "@fortawesome/free-brands-svg-icons";
-export const Home = () => {
+
+const Home = () => {
   return (
     <div className="flex justify-center text-center items-center h-screen">
       <div className="w-3/4">
@@ -10,7 +11,7 @@ export const Home = () => {
           Hello I'm <span className="text-blue-600">Muhd Haque</span>. I'm a
           Computer Science Student
         </h1>
-        <a href="https://www.linkedin.com/in/muhd-haque-prof/" target="_blank">
+        <a href="https://www.linkedin.com/in/muhd-haque-prof/" target="_blank" rel="noopener noreferrer">
           <button>
             <FontAwesomeIcon
               className="h-12"
@@ -20,7 +21,7 @@ export const Home = () => {
             />
           </button>
         </a>
-        <a href="https://github.com/aymanhaque" target="_blank">
+        <a href="https://github.com/aymanhaque" target="_blank" rel="noopener noreferrer">
           <button>
             <FontAwesomeIcon
               className="h-12 mx-10"
@@ -29,13 +30,12 @@ export const Home = () => {
             />
           </button>
         </a>
-        <a href="https://www.instagram.com/ayman__haque_/" target="_blank">
-          <button>
+        <a href="https://www.instagram.com/ayman__haque_/" target="_blank" rel="noopener noreferrer">
+          <button className="">
             <FontAwesomeIcon
-              className="h-12"
+              className="h-12 bg-slate-600 bg-clip-text"
               icon={faInstagram}
               size="2xl"
-              style={{ color: "#2675fd" }}
             />
           </button>
         </a>
