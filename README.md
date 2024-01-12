@@ -1,1 +1,1 @@
-Computer Science and Software Developer Portfolio made using React Vite and TailwindCss
+Computer Science and Software Developer Portfolio made using React TypeScript, TailwindCSS, and Vite
